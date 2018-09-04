@@ -1,0 +1,221 @@
+\documentclass[a4paper,10pt]{article}
+
+\usepackage{marvosym}
+\usepackage{fontspec}
+\usepackage{xunicode,xltxtra,url,parskip}
+\RequirePackage{color,graphicx}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage[big]{layaureo} 
+\usepackage{supertabular}
+\usepackage{titlesec}
+\usepackage{paralist}
+\usepackage{geometry}
+\usepackage{multirow}
+\usepackage{array}
+\usepackage{xcolor}
+\usepackage{hyperref} 
+\usepackage{marvosym}
+\definecolor{linkcolour}{rgb}{0,0.2,0.6}
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour, linkcolor=linkcolour}
+\usepackage{tabularx}
+\usepackage{longtable}
+
+\defaultfontfeatures{Mapping=tex-text}
+\setmainfont[ Path = fonts/, BoldFont = Fontin-Bold, BoldItalicFont = Fontin-Bold, ItalicFont = Fontin-Italic, SmallCapsFont = Fontin-SmallCaps]{Fontin-Regular}%SmallCaps]{Fontin-Regular}
+%\setmainfont[Path = fonts/, BoldFont = LinLibertine_RB.otf, ItalicFont = LinLibertine_RI.otf, BoldItalicFont = LinLibertine_RBI.otf, SlantedFont = LinLibertine_aRL.otf, BoldSlantedFont = LinLibertine_aBL.otf, SmallCapsFont = LinLibertine_aS.otf]{LinLibertine_R.otf}
+%\setmainfont[Path = fonts/, BoldFont = GILB, BoldItalicFont = GILBI, ItalicFont = GILI, SmallCapsFont = GIL]{GIL}
+
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule]%\scshape\raggedright}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{3pt}{3pt}
+\hyphenation{im-pre-se}
+\newgeometry{left=1.5cm,right=1.5cm,top=1.6cm, bottom=0.5cm}  
+
+%--------------------BEGIN DOCUMENT----------------------
+\begin{document}
+
+\pagestyle{empty} % non-numbered pages
+
+\font\fb="[cmr10]" %for use with \LaTeX command
+
+\centering{\Huge\bf{\textsc{Hang} \textsc{\textbf {Hu}}}
+\vspace{-0.2em}}\bigskip
+
+%-------------------Demarcation---------
+\hrule height 0.7mm \vspace{-0.4em}
+\begin{tabular}{lp{2cm}p{4.5cm}p{8cm}}
+%------------------Basic info-----------
+ % \textsc{Address:}
+  % &\textsc{Phone:}
+  % \large{\Telefon}
+{\small \href{mailto:hanghu@vt.edu}{\textcolor{black}{hanghu@vt.edu}}}
+&{\small +1 (540)3156422}
+  % &\textsc{email:}
+  % \large{\Letter}
+&{\small http://people.cs.vt.edu/hanghu}
+&{\small https://linkedin.com/in/hang-hu-823372143}
+   \\
+%--------------------TITLE-------------
+%\par{
+ % { \Huge Hang \textsc{Hu}
+%}\bigskip\par}
+\end{tabular}
+%--------------------SECTIONS-----------------------------------
+\section{Education}
+
+\vspace{-0.2cm}
+
+\begin{tabular}{p{15cm}p{3cm}}
+\textbf{Ph.D. Student in Computer Science, Virginia Tech} & \emph{Sep./2016-Present} \\
+\hspace{1em} Expected Graduation: Jun./2021, GPA: 3.80, Advisor: Gang Wang\\
+\textbf{B.E. in Electronic Packaging Technology, Huazhong University of Science and Technology} & \emph{Sep./2012-Jun./2016} \\
+\hspace{1em} GPA: 3.86, Rank: 2/30, Advisor: Hanhua Chen
+\end{tabular}
+
+\vspace{-0.3cm}
+
+\section{Experience}
+
+\vspace{-0.2cm}
+
+\begin{tabular}{p{15cm}p{3cm}}
+
+\textbf{Graduate Research Assistant}, Virginia Tech, Blacksburg, VA & \emph{Feb./2017-Present} \\
+
+\textbf{Data Analytics Intern}, Geetest, Wuhan, China & \emph{Oct./2015-Dec./2015} \\
+\hspace{1em} Geetest is using AI to do CAPTCHA\\
+\hspace{1em} Used Spark to deploy random forest algorithm
+\end{tabular}
+
+\vspace{-0.3cm}
+
+\section{Skills}
+
+\vspace{-0.2cm}
+
+\begin{tabular}{p{17.5cm}}
+\textbf{Language:} Python (proficient), C++/ C/ Java (beginner)\\
+\textbf{Web:} Python/Flask \textbf{Basics:} Linux, Git, SVN, \LaTeX, GDB
+% \textbf{Machine Learning:} Scikit-learn, Spark, Gensim, Pandas, NumPy, SciPy, NLTK, LDA \\
+\end{tabular}
+
+\vspace{-0.2cm}
+
+\section{Selected Top-tier Publications}
+
+\vspace{-0.3cm}
+
+\begin{longtable}{p{17.5cm}}
+
+\textbf{Needle in a Haystack: Tracking Down Elite Phishing Domains in the Wild.}\\
+\hspace{1em} Ke Tian, Steve T.K. Jan, \textbf{Hang Hu}, Danfeng Yao, Gang Wang.\\ 
+\hspace{1em} Proceedings of \textbf{ACM Internet Measurement Conference (IMC)}, Boston MA, Oct. 2018\\
+\hspace{1em} Acceptance Rate: 43/174=24.7\% \\
+
+\textbf{End-to-End Measurements of Email Spoofing Attacks.}\\
+\hspace{1em} \textbf{Hang Hu}, Gang Wang.\\ 
+\hspace{1em} Proceedings of The 27th \textbf{USENIX Security Symposium (USENIX Security)}, Baltimore MD, Aug. 2018\\
+\hspace{1em} Acceptance Rate: 100/524=19.1\% \\
+
+\textbf{Understanding the Reproducibility of Crowd-reported Security Vulnerabilities.}\\
+\hspace{1em} Dongliang Mu, Alejandro Cuevas, Liming Yang, \textbf{Hang Hu}, Gang Wang, Xinyu Xing, Bing Mao.\\ 
+\hspace{1em} Proceedings of The 27th \textbf{USENIX Security Symposium (USENIX Security)}, Baltimore MD, Aug. 2018\\
+\hspace{1em} Acceptance Rate: 100/524=19.1\% \\
+
+% \textbf{Towards Understanding the Adoption of Anti-Spoofing Protocols in Email Systems.}\\
+% \hspace{1em} \textbf{Hang Hu}, Peng Peng, Gang Wang\\ 
+% \hspace{1em} Proceedings of \textbf{The IEEE Cybersecurity Development Conference (SecDev)}, Cambridge MA, Sep. 2018\\
+
+% \textbf{The Next Domino To Fall: Empirical Analysis of User Passwords across Online Services.} \\
+% \hspace{1em} Chun Wang, Steve T.K. Jan, \textbf{Hang Hu}, Douglas Bossart, Gang Wang.\\ 
+% \hspace{1em} Proceedings of The ACM Conference \textbf{CODASPY}, Tempe AZ, Mar. 2018\\
+% \end{tabular}
+\end{longtable}
+
+\vspace{-0.6cm}
+
+\section{Projects}
+\vspace{-0.4cm}
+
+\begin{longtable}{p{15cm}p{3cm}}
+\textbf{Virtual Alexa Client in Python} & \emph{Jun./2018-Jul./2017} \\
+\hspace{1em} Directly fed audio files and receive audio response files \\
+
+\textbf{Alexa Skill} & \emph{Jun./2018-Jul./2017} \\
+\hspace{1em} Developed an Alexa Skill from scratch with HTTPS endpoint\\
+
+\textbf{Disposable Email Crawler in Python} & \emph{Aug./2017-Dec./2017} \\
+\hspace{1em} Browser Automation based on Selenium\\
+\hspace{1em} It crawled over 2 million Email messages\\
+
+\textbf{Tinder Dating Robot in Python} & \emph{Jun./2017-Jul./2017} \\
+\hspace{1em} API capture, HTTPS Proxy \\
+\hspace{1em} It can finish all the basic functions of Tinder\\
+
+\textbf{Twitter User Gender Classifier} & \emph{Feb./2017-Jun./2017} \\
+\hspace{1em} Used screen name, profile image, self-description, tweets to classify user gender \\
+\hspace{1em} Random forest, naive Bayes, logistic regression in Weka \\
+\hspace{1em} Precision 68.60\%, Recall 68.30\% \\
+
+\textbf{Shell, Memory Allocator, Thread Pool and Multithreadeding HTTP Server in C} & \emph{Sep./2016-Oct./2016} \\
+\hspace{1em} Shell supported fg, bg, kill, stop, pipeline and I/O redirection \\
+\hspace{1em} Memory allocator supported dynamic memory allocate, free and reallocate \\
+\hspace{1em} HTTP server was running on self-implemented thread pool \\
+\end{longtable}
+
+\vspace{-0.6cm}
+
+\section{Selected Awards}
+
+\vspace{-0.3cm}
+
+\begin{tabular}{p{15cm}p{2.5cm}}
+USENIX Security Symposium (USENIX Security) 2018 Student Travel Grant & \emph{2018} \\
+Meritorious Winner in the Interdisciplinary Contest in Modeling, COMAP \hspace{5em} & \emph{2015} \\
+National Scholarship, Merit Student, HUST & \emph{2014} \\
+% Scholarship of Academic Excellence, Self-Improvement, Excellent Student Cadre, HUST & \emph{2013} \\
+% Scholarship for the Excellent Freshman, HUST & 2012\\
+\end{tabular}
+
+\vspace{-0.3cm}
+
+
+
+% \section{Selected Press}
+
+% \vspace{-0.3cm}
+
+% \begin{tabular}{p{15cm}p{2.5cm}}
+
+% \textbf{Digital Journal}, \href{http://www.digitaljournal.com/business/why-businesses-need-extra-vigilance-to-combat-phishing-attacks/article/524930}{Why businesses need extra vigilance to combat phishing attacks} & \emph{06/2018} \\
+
+% \textbf{The University Network}, \href{https://www.tun.com/blog/email-users-subject-to-phishing-attacks/}{Email Users Subject to Phishing Attacks, Study Finds} & \emph{06/2018} \\
+
+% \textbf{The University Network}, \href{https://www.tun.com/blog/email-users-subject-to-phishing-attacks/}{Email Users Subject to Phishing Attacks, Study Finds} & \emph{06/2018} \\
+
+% \textbf{Science Daily}, \href{https://www.sciencedaily.com/releases/2018/06/180611133443.htm}{Extra vigilance required to combat growing sophistication of phishing attacks} & \emph{06/2018} \\
+
+% \textbf{Augusta Free Press}, \href{https://augustafreepress.com/computer-science-researcher-meets-updated-phishing-attacks-head-on/}{Computer science researcher meets updated phishing attacks head on} & \emph{06/2018} \\
+
+% \textbf{VT News}, \href{https://vtnews.vt.edu/articles/2018/06/phishingattacks.html}{Computer science researcher meets updated phishing attacks head on} & \emph{06/2018} \\
+
+% \textbf{ACMTech News}, \href{https://technews.acm.org/#1001519}{More Than Half of Users Reuse Passwords} & \emph{Jun./2018}\\
+
+
+% \textbf{DarkReading}, \href{https://www.darkreading.com/endpoint/authentication/more-than-half-of-users-reuse-passwords/d/d-id/1331892}{More Than Half of Users Reuse Passwords} & \emph{05/2018}\\
+
+% \textbf{Security Magzine}, \href{https://www.securitymagazine.com/articles/89049-why-people-are-password-walking}{Why People are 'Password Walking'} & \emph{05/2018}\\
+
+% \textbf{The Sun}, \href{https://www.thesun.co.uk/tech/6360466/most-common-passwords-list-worst/}{Most common passwords revealed – are you guilty of using these hilariously terrible picks?} & \emph{May/2018}\\
+
+% \textbf{Yahoo!}, \href{https://www.yahoo.com/news/superman-liverpool-got-one-2018s-worst-passwords-165126879.html}{From ‘Superman’ to ‘Liverpool’ Have you got one of 2018’s worst passwords?} & \emph{05/2018}\\
+
+% \textbf{Daily Express}, \href{https://www.express.co.uk/life-style/science-technology/964633/Password-change-reset-forgot-worst-passwords-you-can-have}{Worst passwords REVEALED: If YOURS is on this list, you should change it right NOW} & \emph{05/2018}\\
+
+% \textbf{Mirror}, \href{https://www.mirror.co.uk/tech/123456-iloveyou-most-common-passwords-12582747}{From '123456' to 'iloveyou': The most common passwords of 2017 - and they're worryingly easy to guess} & \emph{May/2018}\\
+
+% \textbf{Daily Mail}, \href{http://www.dailymail.co.uk/sciencetech/article-5762467/Is-list-popular-passwords-2017-revealed.html}{Is yours on the list? Most popular passwords of 2017 are revealed, and they are incredibly easy to crack} & \emph{05/2018}\\
+
+% \textbf{New Scientist}, \href{https://www.newscientist.com/article/2162552-most-people-re-use-old-passwords-but-you-dont-right/}{Most people re-use old passwords (but you don’t, right?)} & \emph{03/2018}\\
+% \end{tabular}
+
+\end{document}
