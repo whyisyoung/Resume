@@ -5,7 +5,7 @@
 \usepackage{xunicode,xltxtra,url,parskip}
 \RequirePackage{color,graphicx}
 \usepackage[usenames,dvipsnames]{xcolor}
-\usepackage[big]{layaureo} 
+\usepackage[big]{layaureo}
 \usepackage{supertabular}
 \usepackage{titlesec}
 \usepackage{paralist}
@@ -13,9 +13,9 @@
 \usepackage{multirow}
 \usepackage{array}
 \usepackage{xcolor}
-\usepackage{hyperref} 
+\usepackage{hyperref}
 \usepackage{marvosym}
-\definecolor{linkcolour}{rgb}{0,0.2,0.6}
+% \definecolor{linkcolour}{rgb}{0,0.2,0.6}
 \hypersetup{colorlinks,breaklinks,urlcolor=linkcolour, linkcolor=linkcolour}
 \usepackage{tabularx}
 \usepackage{longtable}
@@ -28,7 +28,7 @@
 \titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule]%\scshape\raggedright}{}{0em}{}[\titlerule]
 \titlespacing{\section}{0pt}{3pt}{3pt}
 \hyphenation{im-pre-se}
-\newgeometry{left=1.5cm,right=1.5cm,top=1.6cm, bottom=0.5cm}  
+\newgeometry{left=1.2cm,right=1.2cm,top=1.6cm, bottom=1cm}
 
 
 \newenvironment{packed_itemize}{
@@ -43,7 +43,6 @@
 \setlength{\partopsep}{0pt}
 }{\end{list}}
 
-
 %--------------------BEGIN DOCUMENT----------------------
 \begin{document}
 
@@ -51,116 +50,158 @@
 
 \font\fb="[cmr10]" %for use with \LaTeX command
 
-\centering{\Huge\bf{\textsc{Hang} \textsc{\textbf {Hu}}}
+\centering{\Huge\bf{\textsc{Limin} \textsc{\textbf {Yang}}} % \small{Ph.D. Student}
 \vspace{-0.2em}}\bigskip
 
 %-------------------Demarcation---------
 \hrule height 0.7mm \vspace{-0.4em}
-\begin{tabular}{lp{2cm}r}
-%------------------Basic info-----------
- % \textsc{Address:}
-  % &\textsc{Phone:}
-  % \large{\Telefon}
-{\small \textcolor{black}{hanghu@vt.edu}}
-&{\small +1 (540)3156422}
-&{\small LinkedIn: https://linkedin.com/in/hang-hu-823372143}\\
-%--------------------TITLE-------------
-%\par{
- % { \Huge Hang \textsc{Hu}
-%}\bigskip\par}
+% \begin{tabular}{lp{3cm}p{6cm}r}
+% {\small \textcolor{black}{liminyang@vt.edu}}
+% &{\small +1(540)998-9158}
+% &{\small https://www.linkedin.com/in/liminyang/}
+% &{\small https://people.cs.vt.edu/liminyang}
+% &{\small Github: whyisyoung}\\
+% \end{tabular}
+
+% \begin{tabular}{c{9cm}c{9cm}}
+\begin{tabular}{cc}
+{\small \textcolor{black}{liminyang@vt.edu}}
+&{\small +1(540)998-9158}
 \end{tabular}
+\begin{tabular}{c{6cm}c{6cm}c{6cm}}
+% \begin{tabular}{p{6cm}p{6cm}p{6cm}}
+&{\small https://www.linkedin.com/in/liminyang/}
+&{\small https://people.cs.vt.edu/liminyang}
+&{\small GitHub: \href{https://github.com/whyisyoung}{whyisyoung}\\
+\end{tabular}
+\vspace{-0.3cm}
 %--------------------SECTIONS-----------------------------------
 \section{Education}
 
 \vspace{-0.2cm}
 
-\begin{tabular}{p{15cm}p{3cm}}
-\textbf{Virginia Tech, PhD in Computer Science,} GPA: 3.80, Advisor: Gang Wang & \emph{Sep./2016-Present} \\
+\begin{tabular}{p{15cm}r}
+\textbf{Virginia Tech,} Ph.D. in Computer Science, Advisor: Gang Wang & \emph{Aug.2018 – May 2023} \\
 \end{tabular}
-\begin{packed_itemize}
-\item Expected graduation: Jun./2021 \\
-\item Relevant courses: Computer Systems, Software Engineering, Network Architecture and Protocols, Applied ML in Security, Fundamentals of Info Security, Data Analytics \\
-\end{packed_itemize}
 
-\begin{tabular}{p{15cm}p{3cm}}
-\textbf{HUST, B.E. in Electronic Packaging Technology,} GPA: 3.86, Rank: 2/30 & \emph{Sep./2012-Jun./2016} \\
+\begin{tabular}{p{15cm}r}
+\textbf{The Pennsylvania State University,} Visiting Student, Advisor: Xinyu Xing and Gang Wang & \emph{Sept.2017 – Feb.2018} \\
+\end{tabular}
+
+\begin{tabular}{p{15cm}r}
+\textbf{East China Normal University,} Master Study in Computer Science, GPA: 88.28 & \emph{Sept.2015 – June 2018} \\
+\end{tabular}
+
+\begin{tabular}{p{15cm}r}
+\textbf{East China Normal University,} BEng in Computer Science, GPA: 3.38 & \emph{Sept.2011 – June 2015} \\
 \end{tabular}
 \vspace{-1em}
 
 
-
-
-\section{Skills}
-
 \vspace{-0.2cm}
-
-\begin{tabular}{p{17.5cm}}
-\textbf{Language:} Python (proficient), Java, Matlab. \textbf{Basics:} Linux, Git, SVN, \LaTeX, GDB. \\
-\textbf{Frameworks:} Scikit-learn, Pandas, NumPy, SciPy, NLTK, LDA, MySQL, Spark, Gensim, Flask. \\
-\end{tabular}
-
-
-
-
-
-
 \section{Experience}
 \vspace{-0.2cm}
 
-\begin{tabular}{p{15cm}p{3cm}}
-\textbf{Virginia Tech, Graduate Research Assistant,} Blacksburg, VA & \emph{Feb./2017-Present} \\
+\begin{tabular}{p{15cm}r}
+\textbf{Virginia Tech, Graduate Teaching Assistant,} Blacksburg, VA  & \emph{Aug.2018 – Present} \\
 \end{tabular}
 
 \begin{packed_itemize}
-\item My research covers security, privacy and internet measurement from data-driven perspectives  \\
-\item Worked on email system security, IoT security, password reuse, phishing detection, and CVE  \\
-\item Published 5 papers including 3 top-tier conference papers \\
+\item TA for Data Structures and Algorithms (CS 3114)
 \end{packed_itemize}
 
 
 
-\begin{tabular}{p{15cm}p{3cm}}
-\textbf{Geetest, Data Analytics Intern,} Wuhan, China & \emph{Oct./2015-Dec./2015} \\
+\begin{tabular}{p{15cm}r}
+\textbf{XuebaJun, Search \& Rank Intern,} Shanghai, China & \emph{Sept.2016 – Oct.2016} \\
 \end{tabular}
 
 \begin{packed_itemize}
-\item Implemented random forest, its gradient descent and deployed it using the spark in python
-\item Used ML model to classify if a mouse movement data vector is generated by human or robot \\
+\item Located reasons of response bottleneck. Read the source code related to searching of XuebaJun
+app (one of the top 3 mobile apps in its area). Also accomplished a comprehensive code report.
 \end{packed_itemize}
 
+\begin{tabular}{p{15cm}r}
+\textbf{Peking University, Exploit Intern,} Shanghai, China & \emph{July 2015 – Aug.2015} \\
+\end{tabular}
 
+\begin{packed_itemize}
+\item Supervised by Ph.D Candidate Yu Ding and learn binary vulnerability discovery/exploit
+(Windows), Android security (APK unpacking and repackaging), Web security (XSS).
+\end{packed_itemize}
 
+\begin{tabular}{p{15cm}r}
+\textbf{UnionPay Smart, Quantitative Analyst Assistant Intern,} Shanghai, China & \emph{Mar.2015 – June 2015} \\
+\end{tabular}
 
+\begin{packed_itemize}
+\item Using Hadoop cluster to fetch luxury industry data from the transaction records of 2.7 billion
+credit cards supported by China UnionPay, written with Python and Shell script.
+\end{packed_itemize}
+\vspace{-0.2cm}
 
+\section{Publications}
+\vspace{-0.2cm}
+\begin{tabular}{p{18cm}}
+\textbf{[USENIX Security'18]} Dongliang Mu, Alejandro Cuevas, \textbf{Limin Yang}, Hang Hu, Xinyu Xing, Bing Mao, Gang Wang. ``Understanding the Reproducibility of Crowd-reported Security Vulnerabilities.'' In Proceedings of \textit{The 27th USENIX Security Symposium (USENIX Security)}, Baltimore MD, August 2018. (Acceptance Rate: 100/524=19.1\%).
+\end{tabular}
+\vspace{-0.1cm}
+
+\begin{tabular}{p{18cm}}
+\textbf{[Globecom'17]} \textbf{Limin Yang}, Xiangxue Li, Yu Yu. ``VulDigger: A Just-in-time and Cost-Aware Tool for Digging Vulnerability-Contributing Changes.'' In Proceedings of \textit{IEEE Global Communications Conference (GLOBECOM)}, Singapore, December 2017.
+\end{tabular}
+\vspace{-0.1cm}
+
+\begin{tabular}{p{18cm}}
+\textbf{[PPNA'17]} Minhui Xue, \textbf{Limin Yang}, Keith W. Ross, and Haifeng Qian. ``Charactering user behavior in location-based find-and-flirt services: anonymity and demographics.'' In \textit{Peer-to-Peer Networking and Applications (PPNA)}, 2017.
+\end{tabular}
+\vspace{-0.2cm}
 
 
 \section{Projects}
 \vspace{-0.2cm}
 
-\begin{tabular}{p{15cm}p{3cm}}
-\textbf{Virtual Alexa Client \& Alexa Skill Endpoint in Python} & \emph{Jun./2018-Jul./2017} \\
+\begin{tabular}{p{15cm}r}
+\textbf{Alexa Cloud Spoofing} & \emph{Aug.2018 – Oct.2018} \\
 \end{tabular}
 
 \begin{packed_itemize}
-\item The client can directly receive audio files and return response audio \\
-\item Developed an Alexa Skill from scratch with HTTPS endpoint\\
+\item Developed an Alexa skill with Python for finding authentication issues and potential SQL injection vulnerabilities.
 \end{packed_itemize}
 
 % \textbf{Tinder Dating Robot in Python} & \emph{Jun./2017-Jul./2017} \\
 % \hspace{1em} API capture, HTTPS Proxy \\
 % \hspace{1em} It can finish all the basic functions of Tinder\\
 
-
-
-\begin{tabular}{p{15cm}p{3cm}}
-\textbf{Twitter User Gender Classifier} & \emph{Feb./2017-Jun./2017} \\
+\begin{tabular}{p{15cm}r}
+\textbf{Vulnerabilities Reproduction} & \emph{Nov.2017 – Jan.2018} \\
 \end{tabular}
 
 \begin{packed_itemize}
-\item Used screen name, profile image, self-description, tweets to classify user gender \\
-\item Random forest, naive Bayes, logistic regression in Weka \\
-\item Precision 68.60\%, Recall 68.30\% \\
+% \item Summarize the missing information for reproducing a bug report by reading multiple bug reports.
+\item Collected bug reports and proof of concepts from websites like exploit-db and summarize missing information.
+\item Measurement analysis on how crowdsourcing could ease the effort for reproducing a security bug.
 \end{packed_itemize}
+
+
+\begin{tabular}{p{15cm}r}
+\textbf{Vulnerability Contributing Commits (VCCs) Prediction} & \emph{Dec.2016 – Mar.2017} \\
+\end{tabular}
+
+\begin{packed_itemize}
+\item A vulnerability prediction model built on Firefox project on code commits level (Precision: 92\%, Recall: 14\%).
+% \item Features: metadata and code feature; Algorithm: Random Forests; Result: Precision: 92\%, Recall: 14\%.
+\item Effort-aware model: capture 31\% VCCs with 20\% inspection effort (measured by lines of code).
+\end{packed_itemize}
+
+\begin{tabular}{p{15cm}r}
+\textbf{Hash algorithm cracking with dictionary and GPU attacking} & \emph{Mar.2014 – Feb.2015} \\
+\end{tabular}
+
+\begin{packed_itemize}
+\item For MD5 encrypted password cracking, 50\% faster than Cryptohaze Multiforcer. Written in C and CUDA.
+\end{packed_itemize}
+
 
 
 % \begin{tabular}{p{15cm}p{3cm}}
@@ -169,67 +210,49 @@
 % \begin{packed_itemize}
 % \item Browser automation based on Selenium \\
 % \end{packed_itemize}
+\vspace{-0.2cm}
+\section{Awards}
 
+\vspace{-0.3cm}
 
-\begin{tabular}{p{15cm}p{3cm}}
-\textbf{OS Related: Shell, Memory Allocator, Thread Pool and Multithreadeding HTTP Server in C} & \emph{Sep./2016-Oct./2016} \\
-\end{tabular}
+% \begin{itemize}
+%     \item
+%     \begin{tabular}{p{16cm}r}
+%     ECNU Graduate Student Overseas Research Scholarship & \emph{2017}
+%     \end{tabular}
+%     \item
+%     \begin{tabular}{p{15cm}r}
+%     ECNU Top-notch Innovative Personnel Training Plan \textbf{(4/91)} & \emph{2013 – 2015}
+%     \end{tabular}
+% \end{itemize}
 
 \begin{packed_itemize}
-\item Shell supported fg, bg, kill, stop, pipeline and I/O redirection \\
-\item Memory allocator supported dynamic memory allocate, free and reallocate \\
-\item HTTP server was running on self-implemented thread pool \\
+\item
+\begin{tabular}{p{16.5cm}r}
+ECNU Graduate Student Overseas Research Scholarship & \emph{2017}
+\end{tabular}
+\item
+\begin{tabular}{p{15.5cm}r}
+ECNU Top-notch Innovative Personnel Training Plan \textbf{(4/91)} & \emph{2013 – 2015}
+\end{tabular}
 \end{packed_itemize}
 
-
-
-
-
-\section{Selected Top-tier Publications}
 
 \vspace{-0.2cm}
+\section{Skills}
+\vspace{-0.2cm}
 
-\begin{tabular}{p{17.5cm}}
-\textbf{Needle in a Haystack: Tracking Down Elite Phishing Domains in the Wild.}\\
-\end{tabular}
-
-\begin{packed_itemize}
-\item Ke Tian, Steve T.K. Jan, \textbf{Hang Hu}, Danfeng Yao, Gang Wang.\\ 
-\item Proceedings of \textbf{ACM Internet Measurement Conference (IMC)}, Boston MA, Oct. 2018\\
-\item Acceptance Rate: 43/174=24.7\% \\
-\end{packed_itemize}
-
-
-\begin{tabular}{p{17.5cm}}
-\textbf{End-to-End Measurements of Email Spoofing Attacks.}\\
-\end{tabular}
-
-\begin{packed_itemize}
-\item \textbf{Hang Hu}, Gang Wang.\\ 
-\item Proceedings of The 27th \textbf{USENIX Security Symposium (USENIX Security)}, Baltimore MD, Aug. 2018\\
-\item Acceptance Rate: 100/524=19.1\% \\
-\end{packed_itemize}
-
-
-\begin{tabular}{p{17.5cm}}
-\textbf{Understanding the Reproducibility of Crowd-reported Security Vulnerabilities.}\\
-\end{tabular}
-
-\begin{packed_itemize}
-\item Dongliang Mu, Alejandro Cuevas, Liming Yang, \textbf{Hang Hu}, Gang Wang, Xinyu Xing, Bing Mao.\\ 
-\item Proceedings of The 27th \textbf{USENIX Security Symposium (USENIX Security)}, Baltimore MD, Aug. 2018\\
-\item Acceptance Rate: 100/524=19.1\% \\
-\end{packed_itemize}
-
-% \textbf{Towards Understanding the Adoption of Anti-Spoofing Protocols in Email Systems.}\\
-% \hspace{1em} \textbf{Hang Hu}, Peng Peng, Gang Wang\\ 
-% \hspace{1em} Proceedings of \textbf{The IEEE Cybersecurity Development Conference (SecDev)}, Cambridge MA, Sep. 2018\\
-
-% \textbf{The Next Domino To Fall: Empirical Analysis of User Passwords across Online Services.} \\
-% \hspace{1em} Chun Wang, Steve T.K. Jan, \textbf{Hang Hu}, Douglas Bossart, Gang Wang.\\ 
-% \hspace{1em} Proceedings of The ACM Conference \textbf{CODASPY}, Tempe AZ, Mar. 2018\\
+% \begin{tabular}{p{9cm}p{9cm}}
+% \textbf{Language:} Python, C++, C, SQL. & \textbf{Basics:} Git, Linux, Photoshop, \LaTeX. \\
+% \end{tabular}
+% \begin{tabular}{p{18cm}}
+% \textbf{Frameworks and Platforms:} Scikit-learn, Ruby on Rails, wxPython, Hadoop, Windows SDK.  \\
 % \end{tabular}
 
+\begin{tabular}{p{18cm}}
+\textbf{Language:} Python, C++, C, SQL. { }{ } \textbf{Basics:} Git, Linux, Photoshop, \LaTeX. \\
+\textbf{Frameworks and Platforms:} Scikit-learn, Ruby on Rails, wxPython, Hadoop, Windows SDK.  \\
+\end{tabular}
 
 
 % \section{Selected Awards}
